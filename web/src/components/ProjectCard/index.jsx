@@ -12,7 +12,7 @@ export function ProjectCard({
   code,
 }) {
   return (
-    <div className="mt-12 w-96 bg-white shadow-2xl rounded-md p-4">
+    <div className="mt-12 w-full sm:w-96 bg-white shadow-2xl rounded-md p-4">
       <div className="-mx-4 -mt-4">
         <img src={rectangle} alt="" className="w-full h-auto rounded-t-md" />
       </div>
