@@ -1,4 +1,4 @@
-import { Header, TechStack } from './components';
+import { Header, Projects, TechStack } from './components';
 import mariasundfeld from '../public/images/mariasundfeld-image.jpg';
 
 function App() {
@@ -27,6 +27,7 @@ function App() {
         </div>
       </section>
       <TechStack />
+      <Projects />
     </main>
   );
 }
