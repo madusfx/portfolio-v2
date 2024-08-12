@@ -8,3 +8,9 @@
   font-weight: 400;
   background-color: white;
 }
+
+.text-gradient {
+  background: linear-gradient(62.8deg, #00C0FD -30.73%, #E70FAA 98.26%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

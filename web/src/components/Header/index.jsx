@@ -32,7 +32,7 @@ export default function Header() {
 
         <div className="hidden lg:flex flex-col items-center lg:flex-row gap-6 justify-center flex-grow">
           <MenuItem href="#" title="Home" />
-          <MenuItem href="#" title="About" />
+          <MenuItem href="#about" title="About" />
           <MenuItem href="#" title="Tech Stack" />
           <MenuItem href="#" title="Projects" />
           <MenuItem href="#" title="Contact" />
@@ -46,7 +46,7 @@ export default function Header() {
           >
             <div className="flex flex-col items-center justify-center h-full space-y-6">
               <MenuItem href="#" title="Home" />
-              <MenuItem href="#" title="About" />
+              <MenuItem href="#about" title="About" />
               <MenuItem href="#" title="Tech Stack" />
               <MenuItem href="#" title="Projects" />
               <MenuItem href="#" title="Contact" />
