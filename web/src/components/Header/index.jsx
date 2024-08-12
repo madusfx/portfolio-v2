@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import MenuItem from '../MenuItem';
-import SocialMedia from '../SocialMedia';
+import { MenuItem } from '../MenuItem';
+import { SocialMedia } from '../SocialMedia';
 
 import './style.css';
 
-export default function Header() {
+export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {

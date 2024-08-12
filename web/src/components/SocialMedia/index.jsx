@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
-export default function SocialMedia() {
+export function SocialMedia() {
   return (
     <div className="flex items-center gap-4">
       <a href="">

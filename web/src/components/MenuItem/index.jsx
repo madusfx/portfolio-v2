@@ -1,6 +1,6 @@
 import './style.css';
 
-export default function MenuItem({ href, title }) {
+export function MenuItem({ href, title }) {
   return (
     <a
       href={href}
