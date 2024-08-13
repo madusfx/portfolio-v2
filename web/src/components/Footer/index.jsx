@@ -27,11 +27,11 @@ export function Footer() {
       <div className="mt-4 border"></div>
       <div className="mt-6 flex flex-col sm:flex-row justify-between items-center">
         <div className="flex items-center flex-col sm:flex-row gap-2 sm:gap-6">
-          <MenuItem title={'Home'} />
-          <MenuItem title={'About'} />
-          <MenuItem title={'Technologies'} />
-          <MenuItem title={'Projects'} />
-          <MenuItem title={'Contact'} />
+          <MenuItem title={'Home'} href="#" />
+          <MenuItem title={'About'} href="#" />
+          <MenuItem title={'Technologies'} href="#" />
+          <MenuItem title={'Projects'} href="#" />
+          <MenuItem title={'Contact'} href="#" />
         </div>
         <p className="mt-4 sm:mt-0 font-bold text-customGray">
           Designed and built by{' '}

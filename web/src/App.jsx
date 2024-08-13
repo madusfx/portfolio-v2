@@ -7,7 +7,7 @@ function App() {
       <Header />
       <section
         id="about"
-        className="flex flex-col sm:flex-row justify-between items-center mt-12 p-12"
+        className="flex flex-col sm:flex-row justify-center gap-6 sm:gap-32 items-center mt-12 p-12"
       >
         <div>
           <h1 className="font-bold text-4xl text-customBlue">
@@ -21,6 +21,7 @@ function App() {
         <div className="mt-12 sm:mt-0 rounded-full bg-customGradient w-72 h-72 p-2 overflow-hidden">
           <img
             src={mariasundfeld}
+            draggable={false}
             alt="Foto de Maria Eduarda Sundfeld"
             className="object-cover w-full h-full rounded-full"
           />
