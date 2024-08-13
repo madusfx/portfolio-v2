@@ -1,16 +1,19 @@
 import { Footer, Header, Projects, TechStack } from './components';
+import { useTheme } from './hooks/useTheme';
 import mariasundfeld from '../public/images/mariasundfeld-image.jpg';
 
 function App() {
+  const { theme, setTheme } = useTheme();
+
   return (
     <main>
-      <Header />
+      <Header theme={theme} setTheme={setTheme} />
       <section
         id="about"
         className="flex flex-col sm:flex-row justify-center gap-6 sm:gap-32 items-center mt-12 p-12"
       >
         <div>
-          <h1 className="font-bold text-4xl text-customBlue">
+          <h1 className="font-bold text-4xl text-customBlue dark:text-white">
             Hi,
             <br /> my name is
             <br />

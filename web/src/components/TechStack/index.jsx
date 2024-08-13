@@ -17,8 +17,10 @@ import { BiLogoMongodb } from 'react-icons/bi';
 export function TechStack() {
   return (
     <section className="flex flex-col items-center justify-center mt-12 p-6">
-      <h1 className="font-bold text-4xl text-customBlue">My Tech Stack</h1>
-      <h2 className="mt-4 text-3xl text-customBlue">
+      <h1 className="font-bold text-4xl text-customBlue dark:text-white">
+        My Tech Stack
+      </h1>
+      <h2 className="mt-4 text-3xl text-customBlue dark:text-white">
         Technologies I’ve been working with recently
       </h2>
       <div className="mt-8 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-12">
