@@ -1,7 +1,7 @@
 import { SocialMedia } from '../SocialMedia';
 import { MenuItem } from '../MenuItem';
 
-export function Footer() {
+export function Footer({ t }) {
   return (
     <footer className="mt-12 p-6">
       <div className="flex flex-col sm:flex-row justify-between items-center ">
@@ -27,14 +27,14 @@ export function Footer() {
       <div className="mt-4 border"></div>
       <div className="mt-6 flex flex-col sm:flex-row justify-between items-center">
         <div className="flex items-center flex-col sm:flex-row gap-2 sm:gap-6">
-          <MenuItem title={'Home'} href="#" />
-          <MenuItem title={'About'} href="#" />
-          <MenuItem title={'Technologies'} href="#" />
-          <MenuItem title={'Projects'} href="#" />
-          <MenuItem title={'Contact'} href="#" />
+          <MenuItem href="#" title={t('menu.home')} />
+          <MenuItem href="#about" title={t('menu.about')} />
+          <MenuItem href="#" title={t('menu.techstack')} />
+          <MenuItem href="#" title={t('menu.projects')} />
+          <MenuItem href="#" title={t('menu.contact')} />
         </div>
         <p className="mt-4 sm:mt-0 font-bold text-customGray dark:text-white">
-          Designed and built by{' '}
+          {t('footer.credits')}{' '}
           <span className="text-gradient">Maria Sundfeld</span>
         </p>
       </div>

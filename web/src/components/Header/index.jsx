@@ -5,10 +5,12 @@ import { MdDarkMode } from 'react-icons/md';
 import { BsFillLightbulbFill } from 'react-icons/bs';
 import { MenuItem } from '../MenuItem';
 import { SocialMedia } from '../SocialMedia';
+import BrazilFlag from '../../../public/images/brazil-flag.png';
+import UsaFlag from '../../../public/images/usa-flag.jpg';
 
 import './style.css';
 
-export function Header({ theme, setTheme }) {
+export function Header({ theme, setTheme, t, changeLanguage, language }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -33,11 +35,11 @@ export function Header({ theme, setTheme }) {
         </button>
 
         <div className="hidden lg:flex flex-col items-center lg:flex-row gap-6 justify-center flex-grow">
-          <MenuItem href="#" title="Home" />
-          <MenuItem href="#about" title="About" />
-          <MenuItem href="#" title="Tech Stack" />
-          <MenuItem href="#" title="Projects" />
-          <MenuItem href="#" title="Contact" />
+          <MenuItem href="#" title={t('menu.home')} />
+          <MenuItem href="#about" title={t('menu.about')} />
+          <MenuItem href="#" title={t('menu.techstack')} />
+          <MenuItem href="#" title={t('menu.projects')} />
+          <MenuItem href="#" title={t('menu.contact')} />
           <SocialMedia />
         </div>
 
@@ -47,11 +49,11 @@ export function Header({ theme, setTheme }) {
             onClick={toggleMenu}
           >
             <div className="flex flex-col items-center justify-center h-full space-y-6">
-              <MenuItem href="#" title="Home" />
-              <MenuItem href="#about" title="About" />
-              <MenuItem href="#" title="Tech Stack" />
-              <MenuItem href="#" title="Projects" />
-              <MenuItem href="#" title="Contact" />
+              <MenuItem href="#" title={t('menu.home')} />
+              <MenuItem href="#about" title={t('menu.about')} />
+              <MenuItem href="#" title={t('menu.techstack')} />
+              <MenuItem href="#" title={t('menu.projects')} />
+              <MenuItem href="#" title={t('menu.contact')} />
               <SocialMedia />
             </div>
           </div>
@@ -67,6 +69,24 @@ export function Header({ theme, setTheme }) {
             <BsFillLightbulbFill
               className="text-customPurple w-7 h-7 cursor-pointer"
               onClick={() => setTheme('light')}
+            />
+          )}
+        </div>
+
+        <div className="flex items-center ml-4">
+          {language === 'pt-br' ? (
+            <img
+              src={UsaFlag}
+              alt="Bandeira dos EUA"
+              className="rounded-full h-7 w-7 cursor-pointer ml-2 object-cover object-center overflow-hidden"
+              onClick={() => changeLanguage('en')}
+            />
+          ) : (
+            <img
+              src={BrazilFlag}
+              alt="Bandeira do Brasil"
+              className="rounded-full h-7 w-7 cursor-pointer object-cover object-center overflow-hidden"
+              onClick={() => changeLanguage('pt-br')}
             />
           )}
         </div>

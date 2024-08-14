@@ -1,0 +1,49 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "techstack": "Tech Stack",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "hello": "Hi, my name is",
+    "description": "I build things for web."
+  },
+  "techstack": {
+    "title": "My Tech Stack",
+    "subtitle": "Technologies I’ve been working with recently"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Things I’ve built so far"
+  },
+  "projectcard": {
+    "techstack": "Tech Stack",
+    "preview": "Live Preview",
+    "code": "View Code"
+  },
+  "project1": {
+    "title": "Moraes Advocacia",
+    "description": "Design of a Landing Page made for a law firm",
+    "technologies": "React, Node, Styled Components"
+  },
+  "project2": {
+    "title": "Focus Consultoria",
+    "description": "Information website about a legal consultancy company",
+    "technologies": "React, Next.js, Node, Tailwind"
+  },
+  "project3": {
+    "title": "HABITSYNC",
+    "description": "Habit control and management application, with history of completed habits",
+    "technologies": "React Native, Node, Nest.js, Postgres, Styled Components"
+  },
+  "project4": {
+    "title": "To Do List",
+    "description": "To Do List website with user authentication",
+    "technologies": "React, Node, MongoDB, Tailwind"
+  },
+  "footer": {
+    "credits": "Built by"
+  }
+}

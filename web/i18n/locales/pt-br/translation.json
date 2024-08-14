@@ -1,0 +1,49 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "Sobre",
+    "techstack": "Tecnologias",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "home": {
+    "hello": "Olá, meu nome é",
+    "description": "Sou uma desenvolvedora Web."
+  },
+  "techstack": {
+    "title": "Tecnologias",
+    "subtitle": "Tecnologias que tenho utilizado recentemente"
+  },
+  "projects": {
+    "title": "Projetos",
+    "subtitle": "Projetos que criei até agora"
+  },
+  "projectcard": {
+    "techstack": "Tecnologias",
+    "preview": "Visualizar projeto",
+    "code": "Visualizar código"
+  },
+  "project1": {
+    "title": "Moraes Advocacia",
+    "description": "Projeto de uma Landing Page feita para um escritório de advocacia",
+    "technologies": "React, Node, Styled Components"
+  },
+  "project2": {
+    "title": "Focus Consultoria",
+    "description": "Site de informações sobre uma empresa de consultoria jurídica",
+    "technologies": "React, Next.js, Node, Tailwind"
+  },
+  "project3": {
+    "title": "HABITSYNC",
+    "description": "Aplicativo de controle e gerenciamento de hábitos, com histórico de hábitos completados",
+    "technologies": "React Native, Node, Nest.js, Postgres, Styled Components"
+  },
+  "project4": {
+    "title": "To Do List",
+    "description": "Site de uma To Do List com autenticação de usuário",
+    "technologies": "React, Node, MongoDB, Tailwind"
+  },
+  "footer": {
+    "credits": "Criado por"
+  }
+}
