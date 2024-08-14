@@ -20,7 +20,7 @@ export function TechStack({ t }) {
       <h1 className="font-bold text-4xl text-customBlue dark:text-white">
         {t('techstack.title')}
       </h1>
-      <h2 className="mt-4 text-3xl text-customBlue dark:text-white">
+      <h2 className="mt-4 text-3xl text-center text-customBlue dark:text-white">
         {t('techstack.subtitle')}
       </h2>
       <div className="mt-8 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-12">

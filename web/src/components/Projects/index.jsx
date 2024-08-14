@@ -10,7 +10,7 @@ export function Projects({ t }) {
       <h1 className="font-bold text-4xl text-customBlue dark:text-white">
         {t('projects.title')}
       </h1>
-      <h2 className="mt-4 text-3xl text-customBlue dark:text-white">
+      <h2 className="mt-4 text-3xl text-center text-customBlue dark:text-white">
         {t('projects.subtitle')}
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
