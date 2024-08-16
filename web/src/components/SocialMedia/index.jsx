@@ -4,7 +4,7 @@ import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 export function SocialMedia() {
   return (
     <div className="flex items-center gap-4">
-      <a href="https://www.linkedin.com/in/mariaesfreitas/" target="blank">
+      <a href="https://github.com/madusfx" target="blank">
         <div className="flex items-center justify-center">
           <FontAwesomeIcon
             icon={faGithub}
@@ -12,7 +12,7 @@ export function SocialMedia() {
           />
         </div>
       </a>
-      <a href="https://github.com/madusfx" target="blank">
+      <a href="https://www.linkedin.com/in/mariaesfreitas/" target="blank">
         <div className="flex items-center justify-center bg-customGray dark:bg-white rounded-full w-7 h-7 hover:bg-customPink">
           <FontAwesomeIcon
             icon={faLinkedinIn}

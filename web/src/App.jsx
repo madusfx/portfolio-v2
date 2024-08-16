@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Footer, Header, Projects, TechStack } from './components';
 import { useTheme } from './hooks/useTheme';
 import { useTranslation } from 'react-i18next';
@@ -9,6 +10,11 @@ function App() {
   const changeLanguage = lng => {
     i18n.changeLanguage(lng);
   };
+
+  useEffect(() => {
+    setTheme('light');
+    i18n.changeLanguage('pt-br');
+  }, []);
 
   return (
     <main>
