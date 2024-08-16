@@ -37,7 +37,7 @@ export function Header({ theme, setTheme, t, changeLanguage, language }) {
           <MenuItem href="about" title={t('menu.about')} />
           <MenuItem href="/technologies" title={t('menu.techstack')} />
           <MenuItem href="/projects" title={t('menu.projects')} />
-          <MenuItem href="#" title={t('menu.contact')} />
+          <MenuItem href="/contact" title={t('menu.contact')} />
           <SocialMedia />
         </div>
 
@@ -47,11 +47,11 @@ export function Header({ theme, setTheme, t, changeLanguage, language }) {
             onClick={toggleMenu}
           >
             <div className="flex flex-col items-center justify-center h-full space-y-6">
-              <MenuItem href="#" title={t('menu.home')} />
-              <MenuItem href="#about" title={t('menu.about')} />
-              <MenuItem href="#" title={t('menu.techstack')} />
-              <MenuItem href="#" title={t('menu.projects')} />
-              <MenuItem href="#" title={t('menu.contact')} />
+              <MenuItem href="/" title={t('menu.home')} />
+              <MenuItem href="about" title={t('menu.about')} />
+              <MenuItem href="/technologies" title={t('menu.techstack')} />
+              <MenuItem href="/projects" title={t('menu.projects')} />
+              <MenuItem href="/contact" title={t('menu.contact')} />
               <SocialMedia />
             </div>
           </div>

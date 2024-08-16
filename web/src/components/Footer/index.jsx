@@ -31,7 +31,7 @@ export function Footer({ t }) {
           <MenuItem href="/about" title={t('menu.about')} />
           <MenuItem href="/technologies" title={t('menu.techstack')} />
           <MenuItem href="/projects" title={t('menu.projects')} />
-          <MenuItem href="#" title={t('menu.contact')} />
+          <MenuItem href="/contact" title={t('menu.contact')} />
         </div>
         <p className="mt-4 sm:mt-0 font-bold text-customGray dark:text-white">
           {t('footer.credits')}{' '}
