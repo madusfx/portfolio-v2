@@ -7,7 +7,6 @@ import { MenuItem } from '../MenuItem';
 import { SocialMedia } from '../SocialMedia';
 
 import './style.css';
-import { Link } from 'react-router-dom';
 
 export function Header({ theme, setTheme, t, changeLanguage, language }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -34,14 +33,9 @@ export function Header({ theme, setTheme, t, changeLanguage, language }) {
         </button>
 
         <div className="hidden lg:flex flex-col items-center lg:flex-row gap-6 justify-center flex-grow">
-          <Link to={'/'}>
-            <MenuItem title={t('menu.home')} />
-          </Link>
-          <Link to={'/about'}>
-            <MenuItem title={t('menu.about')} />
-          </Link>
-
-          <MenuItem href="#" title={t('menu.techstack')} />
+          <MenuItem href="/" title={t('menu.home')} />
+          <MenuItem href="about" title={t('menu.about')} />
+          <MenuItem href="/technologies" title={t('menu.techstack')} />
           <MenuItem href="#" title={t('menu.projects')} />
           <MenuItem href="#" title={t('menu.contact')} />
           <SocialMedia />

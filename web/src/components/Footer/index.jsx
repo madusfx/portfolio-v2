@@ -29,7 +29,7 @@ export function Footer({ t }) {
         <div className="flex items-center flex-col sm:flex-row gap-2 sm:gap-6">
           <MenuItem href="/" title={t('menu.home')} />
           <MenuItem href="/about" title={t('menu.about')} />
-          <MenuItem href="#" title={t('menu.techstack')} />
+          <MenuItem href="/technologies" title={t('menu.techstack')} />
           <MenuItem href="#" title={t('menu.projects')} />
           <MenuItem href="#" title={t('menu.contact')} />
         </div>
