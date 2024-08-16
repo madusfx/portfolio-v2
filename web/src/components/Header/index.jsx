@@ -36,7 +36,7 @@ export function Header({ theme, setTheme, t, changeLanguage, language }) {
           <MenuItem href="/" title={t('menu.home')} />
           <MenuItem href="about" title={t('menu.about')} />
           <MenuItem href="/technologies" title={t('menu.techstack')} />
-          <MenuItem href="#" title={t('menu.projects')} />
+          <MenuItem href="/projects" title={t('menu.projects')} />
           <MenuItem href="#" title={t('menu.contact')} />
           <SocialMedia />
         </div>

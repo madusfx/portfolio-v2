@@ -30,7 +30,7 @@ export function Footer({ t }) {
           <MenuItem href="/" title={t('menu.home')} />
           <MenuItem href="/about" title={t('menu.about')} />
           <MenuItem href="/technologies" title={t('menu.techstack')} />
-          <MenuItem href="#" title={t('menu.projects')} />
+          <MenuItem href="/projects" title={t('menu.projects')} />
           <MenuItem href="#" title={t('menu.contact')} />
         </div>
         <p className="mt-4 sm:mt-0 font-bold text-customGray dark:text-white">
