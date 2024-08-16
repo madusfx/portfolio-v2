@@ -1,8 +1,4 @@
 import { ProjectCard } from '../ProjectCard';
-import MoraesAdv from '../../../public/images/moraes-adv.png';
-import Focus from '../../../public/images/focus.png';
-import HabitSync from '../../../public/images/habitsync.png';
-import ToDoList from '../../../public/images/todolist.png';
 
 export function Projects({ t }) {
   return (
@@ -15,7 +11,7 @@ export function Projects({ t }) {
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <ProjectCard
-          image={MoraesAdv}
+          image="/images/moraes-adv.png"
           title={t('project1.title')}
           description={t('project1.description')}
           stack={t('project1.technologies')}
@@ -24,16 +20,16 @@ export function Projects({ t }) {
           code={'https://github.com/madusfx/moraes-adv'}
         />
         <ProjectCard
-          image={Focus}
+          image="/images/focus.png"
           title={t('project2.title')}
           description={t('project2.description')}
           stack={t('project2.technologies')}
           t={t}
-          preview={'https://focus-two-beta.vercel.app/'}
+          preview={'https://focusconjur.com.br/'}
           code={'https://github.com/madusfx/focus'}
         />
         <ProjectCard
-          image={HabitSync}
+          image="/images/habitsync.png"
           title={t('project3.title')}
           description={t('project3.description')}
           stack={t('project3.technologies')}
@@ -42,7 +38,7 @@ export function Projects({ t }) {
           code={'https://github.com/madusfx/habitsync'}
         />
         <ProjectCard
-          image={ToDoList}
+          image="/images/todolist.png"
           title={t('project4.title')}
           description={t('project4.description')}
           stack={t('project4.technologies')}

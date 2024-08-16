@@ -5,10 +5,9 @@ import { MdDarkMode } from 'react-icons/md';
 import { BsFillLightbulbFill } from 'react-icons/bs';
 import { MenuItem } from '../MenuItem';
 import { SocialMedia } from '../SocialMedia';
-import BrazilFlag from '../../../public/images/brazil-flag.png';
-import UsaFlag from '../../../public/images/usa-flag.jpg';
 
 import './style.css';
+import { Link } from 'react-router-dom';
 
 export function Header({ theme, setTheme, t, changeLanguage, language }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -35,8 +34,13 @@ export function Header({ theme, setTheme, t, changeLanguage, language }) {
         </button>
 
         <div className="hidden lg:flex flex-col items-center lg:flex-row gap-6 justify-center flex-grow">
-          <MenuItem href="#" title={t('menu.home')} />
-          <MenuItem href="#about" title={t('menu.about')} />
+          <Link to={'/'}>
+            <MenuItem title={t('menu.home')} />
+          </Link>
+          <Link to={'/about'}>
+            <MenuItem title={t('menu.about')} />
+          </Link>
+
           <MenuItem href="#" title={t('menu.techstack')} />
           <MenuItem href="#" title={t('menu.projects')} />
           <MenuItem href="#" title={t('menu.contact')} />
@@ -76,14 +80,14 @@ export function Header({ theme, setTheme, t, changeLanguage, language }) {
         <div className="flex items-center ml-4">
           {language === 'pt-br' ? (
             <img
-              src={UsaFlag}
+              src="/images/usa-flag.jpg"
               alt="Bandeira dos EUA"
               className="rounded-full h-7 w-7 cursor-pointer ml-2 object-cover object-center overflow-hidden"
               onClick={() => changeLanguage('en')}
             />
           ) : (
             <img
-              src={BrazilFlag}
+              src="/images/brazil-flag.png"
               alt="Bandeira do Brasil"
               className="rounded-full h-7 w-7 cursor-pointer object-cover object-center overflow-hidden"
               onClick={() => changeLanguage('pt-br')}

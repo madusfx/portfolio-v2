@@ -5,3 +5,4 @@ export * from './TechStack';
 export * from './Projects';
 export * from './ProjectCard';
 export * from './Footer';
+export * from './ExperienceCard';

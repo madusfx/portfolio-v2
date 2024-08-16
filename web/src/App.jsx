@@ -1,6 +1,5 @@
 import { Footer, Header, Projects, TechStack } from './components';
 import { useTheme } from './hooks/useTheme';
-import mariasundfeld from '../public/images/mariasundfeld-image.jpg';
 import { useTranslation } from 'react-i18next';
 
 function App() {
@@ -36,7 +35,7 @@ function App() {
         </div>
         <div className="mt-12 sm:mt-0 rounded-full bg-customGradient w-72 h-72 p-2 overflow-hidden">
           <img
-            src={mariasundfeld}
+            src="/images/mariasundfeld-image.jpg"
             draggable={false}
             alt="Foto de Maria Eduarda Sundfeld"
             className="object-cover w-full h-full rounded-full"
