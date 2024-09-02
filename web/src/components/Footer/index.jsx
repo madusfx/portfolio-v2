@@ -6,7 +6,7 @@ export function Footer({ t }) {
     <footer className="mt-12 p-6">
       <div className="flex flex-col sm:flex-row justify-between items-center ">
         <h1 className="text-gradient text-2xl text-center">
-          &#123;mariasundfeld&#125;
+          &#123;mariaesfreitas&#125;
         </h1>
         <div className="mt-2 sm:mt-0 flex flex-col sm:flex-row items-center gap-2 sm:gap-6">
           <a

@@ -34,7 +34,9 @@ function App() {
           <h1 className="font-bold text-4xl text-customBlue dark:text-white">
             {t('home.hello')}
             <br />
-            <span className="text-gradient">Maria Eduarda Sundfeld</span>
+            <span className="text-gradient">
+              Maria Eduarda Sundfeld de Freitas
+            </span>
             <br />
             {t('home.description')}
           </h1>

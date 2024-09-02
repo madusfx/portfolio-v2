@@ -28,24 +28,6 @@ export function Projects({ t }) {
           preview={'https://focusconjur.com.br/'}
           code={'https://github.com/madusfx/focus'}
         />
-        <ProjectCard
-          image="/images/habitsync.png"
-          title={t('project3.title')}
-          description={t('project3.description')}
-          stack={t('project3.technologies')}
-          t={t}
-          preview={'https://github.com/madusfx/habitsync'}
-          code={'https://github.com/madusfx/habitsync'}
-        />
-        <ProjectCard
-          image="/images/todolist.png"
-          title={t('project4.title')}
-          description={t('project4.description')}
-          stack={t('project4.technologies')}
-          t={t}
-          preview={'https://to-do-list-gamma-opal.vercel.app/'}
-          code={'https://github.com/madusfx/to-do-list'}
-        />
       </div>
     </section>
   );

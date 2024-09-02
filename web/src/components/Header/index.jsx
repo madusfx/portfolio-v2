@@ -19,7 +19,7 @@ export function Header({ theme, setTheme, t, changeLanguage, language }) {
     <header className="flex items-center justify-between py-8 px-6 sm:px-10 w-full">
       <div className="flex items-center gap-6">
         <h1 className="text-gradient text-2xl text-center">
-          &#123;mariasundfeld&#125;
+          &#123;mariaesfreitas&#125;
         </h1>
       </div>
 
