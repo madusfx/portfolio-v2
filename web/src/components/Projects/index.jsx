@@ -28,6 +28,22 @@ export function Projects({ t }) {
           preview={'https://focusconjur.com.br/'}
           code={'https://github.com/madusfx/focus'}
         />
+        <ProjectCard
+          image="/images/guilherme.png"
+          title={t('project3.title')}
+          description={t('project3.description')}
+          stack={t('project3.technologies')}
+          t={t}
+          preview={'https://psicologoguilhermepaim.com.br/'}
+        />
+        <ProjectCard
+          image="/images/mat.png"
+          title={t('project4.title')}
+          description={t('project4.description')}
+          stack={t('project4.technologies')}
+          t={t}
+          preview={'https://matimoveis.com.br/'}
+        />
       </div>
     </section>
   );

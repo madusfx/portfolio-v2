@@ -34,14 +34,9 @@
     "technologies": "React, Next.js, Node, Tailwind"
   },
   "project3": {
-    "title": "HABITSYNC",
-    "description": "Habit control and management application, with history of completed habits",
-    "technologies": "React Native, Node, Nest.js, Postgres, Styled Components"
-  },
-  "project4": {
-    "title": "To Do List",
-    "description": "To Do List website with user authentication",
-    "technologies": "React, Node, MongoDB, Tailwind"
+    "title": "Mat Imóveis",
+    "description": "Landing page design for a real estate agent",
+    "technologies": "HTML and CSS"
   },
   "footer": {
     "credits": "Built by"

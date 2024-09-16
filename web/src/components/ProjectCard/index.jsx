@@ -42,15 +42,17 @@ export function ProjectCard({
             {t('projectcard.preview')}
           </a>
         </div>
-        <div className="flex items-center gap-2">
-          <FontAwesomeIcon
-            icon={faGithub}
-            className="h-5 w-5 text-customBlue dark:text-white"
-          />
-          <a href={code} target="blank" className="underline dark:text-white">
-            {t('projectcard.code')}
-          </a>
-        </div>
+        {code && (
+          <div className="flex items-center gap-2">
+            <FontAwesomeIcon
+              icon={faGithub}
+              className="h-5 w-5 text-customBlue dark:text-white"
+            />
+            <a href={code} target="blank" className="underline dark:text-white">
+              {t('projectcard.code')}
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );

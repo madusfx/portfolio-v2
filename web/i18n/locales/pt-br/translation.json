@@ -34,14 +34,14 @@
     "technologies": "React, Next.js, Node, Tailwind"
   },
   "project3": {
-    "title": "HABITSYNC",
-    "description": "Aplicativo de controle e gerenciamento de hábitos, com histórico de hábitos completados",
-    "technologies": "React Native, Node, Nest.js, Postgres, Styled Components"
+    "title": "Psicólogo Guilherme",
+    "description": "Projeto de landing page para um psicólogo",
+    "technologies": "Wordpress"
   },
   "project4": {
-    "title": "To Do List",
-    "description": "Site de uma To Do List com autenticação de usuário",
-    "technologies": "React, Node, MongoDB, Tailwind"
+    "title": "Mat Imóveis",
+    "description": "Projeto de landing page para um corretor de imóveis",
+    "technologies": "HTML e CSS"
   },
   "footer": {
     "credits": "Criado por"
