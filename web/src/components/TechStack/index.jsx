@@ -1,4 +1,11 @@
-import { FaHtml5, FaCss3, FaReact, FaNode, FaDocker } from 'react-icons/fa';
+import {
+  FaHtml5,
+  FaCss3,
+  FaReact,
+  FaNode,
+  FaDocker,
+  FaWordpress,
+} from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io5';
 import {
   SiTypescript,
@@ -41,6 +48,7 @@ export function TechStack({ t }) {
         <SiPostgresql className="w-16 h-16" color="#336791" />
         <FaDocker className="w-16 h-16" color="#2496ED" />
         <VscVscode className="w-16 h-16" color="#007ACC" />
+        <FaWordpress className="w-16 h-16" color="#32373C" />
       </div>
     </section>
   );

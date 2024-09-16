@@ -34,6 +34,11 @@
     "technologies": "React, Next.js, Node, Tailwind"
   },
   "project3": {
+    "title": "Psicólogo Guilherme",
+    "description": "Landing page design for a psychologist",
+    "technologies": "Wordpress and Elementor"
+  },
+  "project4": {
     "title": "Mat Imóveis",
     "description": "Landing page design for a real estate agent",
     "technologies": "HTML and CSS"
